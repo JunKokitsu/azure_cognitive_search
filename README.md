@@ -1,6 +1,6 @@
 # azure_cognitive_search
 
-## Este projeto visa criar uma solução de busca e enriquecimento de dados utilizando recursos da Azure para a Fourth Coffee. A solução envolve a configuração de três principais recursos na Azure:
+## Este projeto visa criar uma solução de busca e enriquecimento de dados utilizando recursos da Azure. A solução envolve a configuração de três principais recursos:
 
 ### Azure AI Search:
 
@@ -68,9 +68,11 @@ Criar a Storage Account:
 Crie a conta de armazenamento com as configurações especificadas e habilite o acesso anônimo para blobs.
 
 ### Observação Importante
+
 #### Localização: Os recursos Azure AI Search e Azure AI Services devem estar na mesma localização para funcionarem corretamente.
 
 Upload de Documentos para o Azure Storage
+
 Criar um Contêiner no Azure Storage:
 
 No portal Azure, acesse a conta de armazenamento criada anteriormente.
@@ -98,6 +100,7 @@ No painel Upload blob, selecione todos os arquivos da pasta reviews e clique em 
 Após o upload, os documentos estarão disponíveis no contêiner coffee-reviews.
 
 Indexação dos Documentos no Azure AI Search
+
 Iniciar o Assistente de Importação de Dados:
 
 No portal Azure, acesse o recurso Azure AI Search criado anteriormente.
